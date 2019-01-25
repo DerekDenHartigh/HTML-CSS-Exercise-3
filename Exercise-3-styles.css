@@ -1,0 +1,49 @@
+/* the glob wasn't putting borders on everything, had to specify, ideas? */
+* , header, footer, a, div, h1 {
+    box-sizing: border-box;
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+} 
+ 
+html, body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    height: 100vh;
+}
+header{
+
+}
+.title{
+
+}
+.headerLinks{
+
+}
+main{
+
+}
+.mainText{
+    flex-grow: 3;
+}
+.sideBar{
+    flex-grow: 1;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.copyright{
+
+}
+.footerLinkBox{
+
+}
+.footerLink{
+
+}
